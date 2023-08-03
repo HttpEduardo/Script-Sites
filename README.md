@@ -8,7 +8,7 @@ Este repositório contém um script Python que cria um site simples com os segui
 - estilo.css
 - 404.html
 - robots.txt
-- 
+  
 O script pode ser executado executando o seguinte comando no terminal:
 
 python create_website.py
