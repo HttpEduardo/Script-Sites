@@ -1,4 +1,5 @@
 import os
+import webbrowser
 
 # Crie uma pasta para o site
 os.mkdir("website")
@@ -20,4 +21,4 @@ with open("website/robots.txt", "w") as f:
     f.write("User-agent: *\nDisallow: /")
 
 # Abra o site no navegador
-os.system("open website/index.html")
+webbrowser.open("http://localhost:8000/")
